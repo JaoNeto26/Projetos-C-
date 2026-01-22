@@ -1,0 +1,4 @@
+PERGUNTA: O que a significam as expressões abaixo? a. *"queijo" b. "presunto"[2]
+
+RESPOSTA: *"queijo" pega o caractere apontado pela string 'q'
+"presunto"[2] é um acesso ao índice 2 do vetor de chars 'e'
