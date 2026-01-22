@@ -1,0 +1,8 @@
+PERGUNTA: Por que não se usa const quando o parâmetro da função é um dos tipos básicos
+(int, float, char, bool, etc.) ?
+void exibir (const int);
+void exibir (int);
+
+RESPOSTA: quando o parâmetro é um tipo básico e é passado por valor, a função recebe apenas uma cópia, então colocar const não muda nada. 
+Além disso, const não altera a assinatura da função, então void exibir(int) e void exibir(const int) são consideradas iguais e geram erro. 
+O const só faz diferença quando o parâmetro é passado por referência ou ponteiro.
